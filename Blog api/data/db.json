@@ -1,0 +1,18 @@
+{
+  "blogs": [
+    {
+      "title": "Quam id voluptate id",
+      "body": "Numquam proident re",
+      "author": "kanan",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "name": "Kanan"
+    },
+    {
+      "name": "Gurban"
+    }
+  ]
+}
