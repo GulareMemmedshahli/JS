@@ -1,0 +1,50 @@
+.box1{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+}
+body{
+    background-color: darkgrey;
+}
+h1{
+    color:rgb(91, 141, 234);
+    text-align: center;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline-style: none;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.delete,
+.edit{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    outline-style: none;
+    border: none;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.delete{
+    background-color: red;
+    color: white;
+}
+.delete:hover{
+    opacity: 0.6;
+}
+.edit{
+    background-color: rgb(217, 124, 58);
+    color: white;
+}
+.edit:hover{
+    opacity: 0.6;
+}
+.text{
+    cursor: pointer;
+}
+

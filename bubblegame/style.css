@@ -1,0 +1,72 @@
+body {
+  background: rgb(29, 28, 28);
+}
+.box1,
+.box2 {
+  height: 500px;
+  width: 550px;
+  border: 2px solid rgb(255, 98, 234);
+  display: flex;
+}
+.box1 {
+  width: 700px;
+  position: relative;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.start,
+.stop,
+.reset {
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.start {
+  background-color: rgb(227, 4, 4);
+  color: white;
+  margin-left: 60px;
+}
+.start:hover {
+  opacity: 0.6;
+}
+.stop {
+  background-color: rgb(116, 176, 25);
+  color: white;
+}
+.stop:hover {
+  opacity: 0.6;
+}
+.reset:hover {
+  opacity: 0.6;
+}
+p {
+  color: white;
+  text-align: center;
+}
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  margin-left: 90px;
+}
+.emh1,
+.emh2,
+.emh3 {
+  background-color: rgb(248, 142, 104);
+  border: none;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+}
+.emh:hover {
+  opacity: 0.6;
+}

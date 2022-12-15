@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:rgb(211, 207, 155); ;
+}
+h1,
+h5,
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+h1{
+    color: chocolate;
+}
+button{
+    background-color: chocolate;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+button:hover{
+    opacity: 0.8;
+}
+.basliq1{
+background-color:rgb(211, 207, 155);
+padding: 40px;
+}
